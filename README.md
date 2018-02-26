@@ -1,29 +1,6 @@
-# truffle-init-webpack
-Example webpack project with Truffle. Includes contracts, migrations, tests, user interface and webpack build pipeline.
+This code was produced around October 24-26 ,2017  at Melbourne smart city hackathon http://smartcitieshack.org/ 
 
-## Usage
+This solution is based on the Ethereum platform and is coded on the Truffle tool chain using Visual Studio Code.
 
-To initialize a project with this example, run `truffle init webpack` inside an empty directory.
+It attempts to check the levbel of usage of an imaginary smart bin that has a monitor attached to it.
 
-## Building and the frontend
-
-1. First run `truffle compile`, then run `truffle migrate` to deploy the contracts onto your network of choice (default "development").
-1. Then run `npm run dev` to build the app and serve it on http://localhost:8080
-
-## Possible upgrades
-
-* Use the webpack hotloader to sense when contracts or javascript have been recompiled and rebuild the application. Contributions welcome!
-
-## Common Errors
-
-* **Error: Can't resolve '../build/contracts/MetaCoin.json'**
-
-This means you haven't compiled or migrated your contracts yet. Run `truffle compile` and `truffle migrate` first.
-
-Full error:
-
-```
-ERROR in ./app/main.js
-Module not found: Error: Can't resolve '../build/contracts/MetaCoin.json' in '/Users/tim/Documents/workspace/Consensys/test3/app'
- @ ./app/main.js 11:16-59
-```
